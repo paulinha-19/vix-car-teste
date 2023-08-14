@@ -21,3 +21,8 @@ Para rodar o aplicativo localmente, siga as etapas abaixo:
 2. No diretório do projeto, abra um terminal e execute o seguinte comando para instalar as dependências:
    ```sh
    npm install
+
+3. Apos a execução do npm para adicionar todos os pacotes, é necessário as credencias para login:
+   ```sh
+   email: 'admin@vix.com.br',
+   password: 'admin',
