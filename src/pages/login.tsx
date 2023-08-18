@@ -6,7 +6,6 @@ import {
   Heading } from '@chakra-ui/react';
 import LoginForm from '../components/loginForm';
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
-import { AuthProvider } from '../context/authContext';
 
 export const Login: React.FC = () => {
     return (
@@ -18,9 +17,7 @@ export const Login: React.FC = () => {
             <Center h="100%">
               <Box w="100%">
                 <Heading mb="4">Login</Heading>
-                <AuthProvider>
                 <LoginForm />
-                </AuthProvider>
               </Box>
             </Center>
           </GridItem>

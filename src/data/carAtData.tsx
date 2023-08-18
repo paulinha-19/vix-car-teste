@@ -1,16 +1,3 @@
-export interface Car {
-    id: number;
-    brand: string;
-    model: string;
-    year: number;
-    price: number;
-    image: string;
-    description: string;
-    features: string[];
-  }
-  
-  export default Car;
-
 export const Cars = [
     {
       id: 1,
@@ -132,5 +119,4 @@ export const Cars = [
       description: 'Lorem ipsum dolor sit amet...',
       features: ['Feature 1', 'Feature 2'],
     },
-    
   ];
